@@ -12,6 +12,7 @@ Personal cheat sheets and quick-reference docs for tools I use day to day.
 |------|------|-------------|
 | ⚙️ **Ansible** | [01-basics.md](ansible/01-basics.md) | Nodes, YAML, inventory, host/group vars, SSH setup, installation |
 | ⚡ **Ansible** | [02-commands.md](ansible/02-commands.md) | Ad-hoc commands, playbooks, flags, samples, idempotency |
+| 📝 **Git** | [conventional-commit.md](git/conventional-commit.md) | Conventional Commits format, types, scopes, examples |
 
 ---
 
@@ -20,9 +21,11 @@ Personal cheat sheets and quick-reference docs for tools I use day to day.
 ```
 dev-docs/
 ├── README.md
-└── ansible/
-    ├── 01-basics.md
-    └── 02-commands.md
+├── ansible/
+│   ├── 01-basics.md
+│   └── 02-commands.md
+└── git/
+    └── conventional-commit.md
 ```
 
 ---
